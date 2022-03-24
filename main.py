@@ -17,22 +17,4 @@ def volatile(prices):
     return cheated_days
 
 print(volatile([7,7,7,7]))
-# def nature_lover(up_speed, down_speed, target_height):
-#     height = 0
-#     is_growing = True
-#     days = 0
-#     while is_growing:
-#       height += up_speed
-#       height -= down_speed
-#       days += 1
-#       print(height)
-#       if height >= target_height:
-#         is_growing = False
-#         if height > target_height:
-#             days-=1
-       
-
-#     return days
-
-# print(nature_lover(8,7,23))
 
